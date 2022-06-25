@@ -8,27 +8,27 @@ from config import START_PIC, UPDATES_CHANNEL, GROUP_SUPPORT
 
 
 ALIVE_PIC = START_PIC
-HOME_TEXT = "**ʜᴇʏ ᴛʜɪs ɪs ᴀ ᴩᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ**",
+HOME_TEXT = "**ᴜʟᴛʀᴀ x ᴍᴜsɪᴄ ʙᴏᴛ**"
 HELP_TEXT = """
-🏷️ **Setup Guide** :
+️ **Setup Guide** :
 
 \u2022 Start a voice chat in your group.
 \u2022 Add bot and user account in chat with admin rights.
-\u2022 Done Setup Process Read Commands Below 👇.
+\u2022 Done Setup Process Read Commands Below 
 """
 
 
 
 USER_TEXT = """
-🏷️ **Users Commands** :
+**Users Commands** :
 
 \u2022 /play <Query> To Play a Song.
 \u2022 /vplay <Query> To Play Video.
-\u2022 /stream <Live Url> To Play Live Streams 👇\n /song To Download A Audio file from YouTube. \n /video to download Video From YouTube\n /lyric to find Lyrics.
+\u2022 /stream <Live Url> To Play Live Streams \n /song To Download A Audio file from YouTube. \n /video to download Video From YouTube\n /lyric to find Lyrics.
 """
 
 SPAM_TEXT = """
-🏷️ **Spam Help @adminsOnly** :
+**Spam Help @adminsOnly** :
 
 \u2022 /spam <Count> Text To Spam Your Message.
 \u2022 /fspam <Count> Text for spamming.
@@ -36,7 +36,7 @@ SPAM_TEXT = """
 """
 
 RAID_TEXT = """
-🏷️ **Raid Commands @SudoOnly** :
+**Raid Commands @SudoOnly** :
 
 \u2022 /vcraid <chatid> - Give a Chat Id Else Username To Voice Raid.
 \u2022 /vraid <chatid + Reply To Video File> - To Raid Video.
@@ -46,7 +46,7 @@ RAID_TEXT = """
 """
 
 ADMIN = """
-🏷️ **admin Commands** :
+ **admin Commands** :
 
 \u2022 /userbotjoin To Invite Assistant To Your Chat.
 \u2022 /end To End Streaming.
@@ -61,17 +61,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
-            
-                InlineKeyboardButton("Aᴅᴍɪɴꜱ", url="https://telegra.ph/𝗕ooo--‌ᴀꜰᴋ-ᴏꜰꜰʟɪɴᴇ-05-17-2"),
-                InlineKeyboardButton("Uꜱᴇʀꜱ", callback_data="users"),
+                
+                InlineKeyboardButton("️ᴜsᴇʀs", callback_data="users"),
             ],
             [
-                InlineKeyboardButton("Rᴀɪᴅ", callback_data="raid"),
-                InlineKeyboardButton("Sᴘᴀᴍ", callback_data="spam"),
+                InlineKeyboardButton("ʀᴀɪᴅ", callback_data="raid"),
+                InlineKeyboardButton("sᴘᴀᴍ", callback_data="spam"),
             ],
             [
-                InlineKeyboardButton("Bᴀᴄᴋ", callback_data="home"),
-                InlineKeyboardButton("Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="home"),
+                InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -88,13 +87,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         USERNAME = get_me.username
         buttons = [
             [
-                    InlineKeyboardButton(
-                        "ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url='https://t.me/{USERNAME}?startgroup=true'),
             ],
-                InlineKeyboardButton("•ɢʀᴏᴜᴘ•", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                InlineKeyboardButton("•ᴏᴡɴᴇʀ•", url="https://t.me/OFFICIALHACKERERA"),
-                InlineKeyboardButton("•ᴄᴏᴍᴍᴀɴᴅ•", callback_data="help"),
+            [
+                InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f"https://t.me/HEPPYLIFI"),
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Broken_Heart_72"),
+            ],
+            [
+                InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/OFFICIALHACKERERA"),
+                InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ", callback_data="help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -109,8 +110,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="users":
         buttons = [
             [
-                InlineKeyboardButton("Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="help"),
+                InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -125,8 +126,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="admins":
         buttons = [
             [
-                InlineKeyboardButton("Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="help"),
+                InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -138,8 +139,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="raid":
         buttons = [
             [
-                InlineKeyboardButton("Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="help"),
+                InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -154,8 +155,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="spam":
         buttons = [
             [
-                InlineKeyboardButton("Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="help"),
+                InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -180,14 +181,16 @@ async def start(client: Client, message: Message):
     get_me = await client.get_me()
     USERNAME = get_me.username
     buttons = [
-             [
-                    InlineKeyboardButton(
-                        "ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            [
+                InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f'https://t.me/{USERNAME}?startgroup=true'),
             ],
-                InlineKeyboardButton("•ɢʀᴏᴜᴘ•", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                InlineKeyboardButton("•ᴏᴡɴᴇʀ•", url="https://t.me/OFFICIALHACKERERA"),
-                InlineKeyboardButton("•ᴄᴏᴍᴍᴀɴᴅ•", callback_data="help"),
+            [
+                InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f"https://t.me/HEPPYLIFI"),
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Broken_Heart_72"),
+            ],
+            [
+                InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/OFFICIALHACKERERA"),
+                InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ", callback_data="help"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -199,16 +202,16 @@ async def help(client: Client, message: Message):
     self.username = get_me.username
     buttons = [
             [
-                InlineKeyboardButton(" Aᴅᴍɪɴꜱ", url="https://telegra.ph/𝗕ooo--‌ᴀꜰᴋ-ᴏꜰꜰʟɪɴᴇ-05-17-2"),
-                InlineKeyboardButton("Uꜱᴇʀꜱ", callback_data="users"),
+                
+                InlineKeyboardButton("ᴜsᴇʀs", callback_data="users"),
             ],
             [
-                InlineKeyboardButton(" Rᴀɪᴅ", callback_data="raid"),
-                InlineKeyboardButton("Sᴘᴀᴍ", callback_data="spam"),
+                InlineKeyboardButton("ʀᴀɪᴅ", callback_data="raid"),
+                InlineKeyboardButton("sᴘᴀᴍ", callback_data="spam"),
             ],
             [
-                InlineKeyboardButton("Bᴀᴄᴋ", callback_data="home"),
-                InlineKeyboardButton(" Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="home"),
+                InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
