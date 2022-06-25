@@ -110,12 +110,12 @@ async def vplay(c: Client, m: Message):
             pass
         except Exception as e:
             return await m.reply_text(
-                f"❌ **userbot failed to join**\n\n**reason**: `{e}`"
+                f"** ᴜsᴇʀʙᴏᴛ ғᴀɪʟᴇᴅ ᴛᴏ ᴊᴏɪɴ**\n\n**reason**: `{e}`"
             )
 
     if replied:
         if replied.video or replied.document:
-            loser = await replied.reply("📥 **downloading video...**")
+            loser = await replied.reply(" ** ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴠɪᴅᴇᴏ...**")
             dl = await replied.download()
             link = replied.link
             if len(m.command) < 2:
@@ -154,7 +154,7 @@ async def vplay(c: Client, m: Message):
                     amaze = MediumQualityVideo()
                 elif Q == 360:
                     amaze = LowQualityVideo()
-                await loser.edit("🔄 **Joining vc...**")
+                await loser.edit("** ᴊᴏɪɴɪɴɢ ᴠᴄ...**")
                 await call_py.join_group_call(
                     chat_id,
                     AudioVideoPiped(
@@ -177,7 +177,7 @@ async def vplay(c: Client, m: Message):
             if len(m.command) < 2:
                 await m.reply_photo(
                      photo=f"{IMG_6}",
-                    caption="💬**Usage: /play Give a Title Song To Play Music or /vplay for Video Play**"
+                    caption="** ᴜʟᴛʀᴀ x ᴍᴜsɪᴄ ʙᴏᴛ**"
                     ,
                       reply_markup=InlineKeyboardMarkup(
                     [
@@ -188,13 +188,13 @@ async def vplay(c: Client, m: Message):
                 )
             )
             else:
-                loser = await c.send_message(chat_id, "🔍 **Searching...**")
+                loser = await c.send_message(chat_id, "** ᴘʀᴏᴄᴇssɪɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ!...**")
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
                 Q = 720
                 amaze = HighQualityVideo()
                 if search == 0:
-                    await loser.edit("❌ **no results found.**")
+                    await loser.edit("** ɴᴏ ʀᴇsᴜʟᴛs ғᴏᴜɴᴅ.**")
                 else:
                     songname = search[0]
                     title = search[0]
@@ -223,7 +223,7 @@ async def vplay(c: Client, m: Message):
                             )
                         else:
                             try:
-                                await loser.edit("🔄 **Joining vc...**")
+                                await loser.edit("** ᴊᴏɪɴɪɴɢ ᴠᴄ...**")
                                 await call_py.join_group_call(
                                     chat_id,
                                     AudioVideoPiped(
@@ -250,24 +250,25 @@ async def vplay(c: Client, m: Message):
         if len(m.command) < 2:
             await m.reply_photo(
                      photo=f"{IMG_6}",
-                    caption="💬**Usage: /play Give a Title Song To Play Music or /vplay for Video Play**"
+                    caption="**ᴜʟᴛʀᴀ x ᴍᴜsɪᴄ ʙᴏᴛ**"
                     ,
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🗑", callback_data="cls")
+                            InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=f"https://t.me/HEPPYLIFI"),
+                            InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/OFFICIALHACKERERA"),
                         ]
                     ]
                 )
             )
         else:
-            loser = await c.send_message(chat_id, "🔍 **Searching...**")
+            loser = await c.send_message(chat_id, "**ᴘʀᴏᴄᴇssɪɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ!...**")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             Q = 720
             amaze = HighQualityVideo()
             if search == 0:
-                await loser.edit("❌ **no results found.**")
+                await loser.edit("**ɴᴏ ʀᴇsᴜʟᴛs ғᴏᴜɴᴅ.**")
             else:
                 songname = search[0]
                 title = search[0]
@@ -294,7 +295,7 @@ async def vplay(c: Client, m: Message):
                         )
                     else:
                         try:
-                            await loser.edit("🔄 **Joining vc...**")
+                            await loser.edit("**ᴊᴏɪɴɪɴɢ ᴠᴄ....**")
                             await call_py.join_group_call(
                                 chat_id,
                                 AudioVideoPiped(
@@ -382,7 +383,7 @@ async def vstream(c: Client, m: Message):
         if len(m.command) == 2:
             link = m.text.split(None, 1)[1]
             Q = 720
-            loser = await c.send_message(chat_id, "🔄 **processing stream...**")
+            loser = await c.send_message(chat_id, "** ᴘʀᴏᴄᴇssɪɴɢ sᴛʀᴇᴀᴍ...**")
         elif len(m.command) == 3:
             op = m.text.split(None, 1)[1]
             link = op.split(None, 1)[0]
@@ -394,7 +395,7 @@ async def vstream(c: Client, m: Message):
                 await m.reply(
                     "» __only 720, 480, 360 allowed__ \n💡 **now streaming video in 720p**"
                 )
-            loser = await c.send_message(chat_id, "🔄 **processing stream...**")
+            loser = await c.send_message(chat_id, " ** ᴘʀᴏᴄᴇssɪɴɢ sᴛʀᴇᴀᴍ...**")
         else:
             await m.reply("**/stream {link} {720/480/360}**")
 
@@ -427,7 +428,7 @@ async def vstream(c: Client, m: Message):
                 elif Q == 360:
                     amaze = LowQualityVideo()
                 try:
-                    await loser.edit("🔄 **Joining vc...**")
+                    await loser.edit("**ᴊᴏɪɴɪɴɢ ᴠᴄ...**")
                     await call_py.join_group_call(
                         chat_id,
                         AudioVideoPiped(

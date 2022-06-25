@@ -35,7 +35,7 @@ async def update_admin(client, message):
         new_admins.append(u.user.id)
     admins[message.chat.id] = new_admins
     await message.reply_text(
-        "✅ Bot **reloaded correctly !**\n✅ **Admin list** has **updated !**"
+        "✅ ʙᴏᴛ **ʀᴇʟᴏᴀᴅᴇᴅ ᴄᴏʀʀᴇᴄᴛʟʏ !**\n✅ **ᴀᴅᴍɪɴ ʟɪsᴛ** ʜᴀs **ᴜᴘᴅᴀᴛᴇᴅ !**"
     )
 
 
@@ -46,12 +46,9 @@ async def skip(client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(
-                    text="• Mᴇɴᴜ", callback_data="cbmenu"
-                ),
-                InlineKeyboardButton(
-                    text="• Cʟᴏsᴇ", callback_data="cls"
-                ),
+                InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=f"https://t.me/HEPPYLIFI"),
+                InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/OFFICIALHACKERERA"),
+                
             ]
         ]
     )
@@ -68,7 +65,7 @@ async def skip(client, m: Message):
         else:
             await m.reply_photo(
                 photo=f"{IMG_3}",
-                caption=f"⏭ **Skipped to the next track.**\n\n🏷 **Name:** [{op[0]}]({op[1]})\n💭 **Chat:** `{chat_id}`\n💡 **Status:** `Playing`\n🎧 **Request by:** {m.from_user.mention()}",
+                caption=f"**sᴋɪᴘᴘᴇᴅ ᴛᴏ ᴛʜᴇ ɴᴇxᴛ ᴛʀᴀᴄᴋ:**\n\n**ɴᴀᴍᴇ:** [{op[0]}]({op[1]})\n**ᴄʜᴀᴛ:** `{chat_id}`\n**sᴛᴀᴛᴜs:** ᴘʟᴀʏɪɴɢ\n **ʀᴇǫᴜᴇsᴛ ʙʏ:** {m.from_user.mention()}",
                 reply_markup=keyboard,
             )
     else:

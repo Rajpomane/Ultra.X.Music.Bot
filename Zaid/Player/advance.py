@@ -16,7 +16,7 @@ deadlyversion = 'Spambot0.10'
 
   
 
-DEADLY = "✯ 𝐌𝐮𝐬𝐢𝐜+𝐑𝐚𝐢𝐝 𝐒𝐩𝐚𝐦 𝐁𝐨𝐭 ✯\n\n"
+DEADLY = " ᴍᴜsɪᴄ ʀᴀɪᴅ sᴘᴀᴍ ʙᴏᴛ \n\n"
 DEADLY += f"═══════════════════\n"
 DEADLY += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.1`\n"
 DEADLY += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
@@ -31,12 +31,10 @@ async def alive(event):
                                   caption=DEADLY,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/Superior_Bots"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/Superior_Support")
-        ],
-        [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/ITZ-ZAID/Zaid-Vc-Player")
+        Button.url("ɢʀᴏᴜᴘ", "https://t.me/HEPPYLIFI"),
+        Button.url("ᴏᴡɴᴇʀ", "https://t.me/OFFICIALHACKERERA")
         ]
+        
         ]
         )
     
@@ -74,7 +72,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🎉 🇵 🇴 🇳 🇬 !\n\n♡︎ `{ms}` 𝗺𝘀 ♡︎")
+        await event.edit(f" 🇵 🇴 🇳 🇬 !\n\n♡︎ `{ms}` 𝗺𝘀 ♡︎")
         
         
 
