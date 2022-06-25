@@ -10,10 +10,13 @@ from config import GROUP_SUPPORT, UPDATES_CHANNEL
 
 def stream_markup(user_id):
   buttons = [
-  
     [
-      InlineKeyboardButton(text="• ɢʀᴏᴜᴘ • ", url=f"https://t.me/HEPPYLIFI"),
-      InlineKeyboardButton(text="• ᴏᴡɴᴇʀ • ", url=f"https://t.me/OFFICIALHACKER72"),
+      InlineKeyboardButton(text="• Mᴇɴᴜ", callback_data=f'cbmenu | {user_id}'),
+      InlineKeyboardButton(text="• Cʟᴏsᴇ", callback_data=f'cls'),
+    ],
+    [
+      InlineKeyboardButton(text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+      InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
     ],
   ]
   return buttons
