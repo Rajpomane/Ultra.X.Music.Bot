@@ -139,9 +139,10 @@ async def play(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
                [     
                   [
-                      InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=f"https://t.me/HEPPYLIFI"),
-                      InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/OFFICIALHACKERERA"),
-                    ]
+                      InlineKeyboardButton(text="•ɢʀᴏᴜᴘ•", url=f"https://t.me/HEPPYLIFI"),
+                      InlineKeyboardButton(text="•ᴏᴡɴᴇʀ•", url=f"https://t.me/OFFICIALHACKERERA"),
+                      InlineKeyboardButton(text="•ᴄʜᴀɴɴᴇʟ•", url=f"https://t.me/Broken_Heart_72"),
+                   ]
                      
                   ]
                   
@@ -255,8 +256,9 @@ async def play(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=f"https://t.me/HEPPYLIFI"),
-                            InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/OFFICIALHACKERERA"),
+                            InlineKeyboardButton(text="•ɢʀᴏᴜᴘ•", url=f"https://t.me/HEPPYLIFI"),
+                            InlineKeyboardButton(text="•ᴏᴡɴᴇʀ•", url=f"https://t.me/OFFICIALHACKERERA"),
+                            InlineKeyboardButton(text="•ᴄʜᴀɴɴᴇʟ•", url=f"https://t.me/Broken_Heart_72"),
                         ]
                     ]
                 )
@@ -298,7 +300,7 @@ async def play(c: Client, m: Message):
                     else:
                         try:
                             await suhu.edit(
-                            f"**ᴜʟᴛʀᴀ x ᴍᴜsɪᴄ **"
+                            f"**ᴜʟᴛʀᴀ x **"
                         )
                             await call_py.join_group_call(
                                 chat_id,
@@ -312,7 +314,7 @@ async def play(c: Client, m: Message):
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
                                 photo=image,
-                                caption=f"**Name:** [{songname[:22]}]({url})\n**Duration:** `{duration}`\n**Status:** `Playing`\n**Request by:** {requester}",
+                                caption=f"ᴜʟᴛʀᴀ x ",
                                 reply_markup=keyboard,
                             )
                         except Exception as ep:
