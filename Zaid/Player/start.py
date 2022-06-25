@@ -92,8 +92,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             [
                 InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f"https://t.me/HEPPYLIFI"),
                 InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Broken_Heart_72"),
-            ],
-            [
                 InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/OFFICIALHACKERERA"),
                 InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ", callback_data="help"),
             ]
@@ -187,8 +185,6 @@ async def start(client: Client, message: Message):
             [
                 InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f"https://t.me/HEPPYLIFI"),
                 InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Broken_Heart_72"),
-            ],
-            [
                 InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/OFFICIALHACKERERA"),
                 InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ", callback_data="help"),
             ]
