@@ -8,11 +8,7 @@ from config import START_PIC, UPDATES_CHANNEL, GROUP_SUPPORT
 
 
 ALIVE_PIC = START_PIC
-HOME_TEXT = """**ʜᴇʏ ᴛʜɪs ɪs ᴀ ᴩᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ 
-        
- [ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ](https://t.me/{BOT_USERNAME}?startgroup=true) 
- 
-**""",
+HOME_TEXT = "**ʜᴇʏ ᴛʜɪs ɪs ᴀ ᴩᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ**",
 HELP_TEXT = """
 🏷️ **Setup Guide** :
 
@@ -65,6 +61,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
+            
                 InlineKeyboardButton("Aᴅᴍɪɴꜱ", url="https://telegra.ph/𝗕ooo--‌ᴀꜰᴋ-ᴏꜰꜰʟɪɴᴇ-05-17-2"),
                 InlineKeyboardButton("Uꜱᴇʀꜱ", callback_data="users"),
             ],
@@ -91,6 +88,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         USERNAME = get_me.username
         buttons = [
             [
+                    InlineKeyboardButton(
+                        "ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            ],
                 InlineKeyboardButton("•ɢʀᴏᴜᴘ•", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=f"https://t.me/{UPDATES_CHANNEL}"),
                 InlineKeyboardButton("•ᴏᴡɴᴇʀ•", url="https://t.me/OFFICIALHACKERERA"),
@@ -180,7 +180,10 @@ async def start(client: Client, message: Message):
     get_me = await client.get_me()
     USERNAME = get_me.username
     buttons = [
-            [
+             [
+                    InlineKeyboardButton(
+                        "ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            ],
                 InlineKeyboardButton("•ɢʀᴏᴜᴘ•", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=f"https://t.me/{UPDATES_CHANNEL}"),
                 InlineKeyboardButton("•ᴏᴡɴᴇʀ•", url="https://t.me/OFFICIALHACKERERA"),
