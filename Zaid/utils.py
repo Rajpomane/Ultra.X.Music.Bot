@@ -25,6 +25,7 @@ keyboard = InlineKeyboardMarkup(
             [
                 InlineKeyboardButton(text="•ɢʀᴏᴜᴘ•", url=f"https://t.me/HEPPYLIFI"),
                 InlineKeyboardButton(text="•ᴏᴡɴᴇʀ•", url=f"https://t.me/OFFICIALHACKERERA"),
+                InlineKeyboardButton(text="•ᴄʜᴀɴɴᴇʟ•", url=f"https://t.me/Broken_Heart_72"),
             ]
         ]
     )
