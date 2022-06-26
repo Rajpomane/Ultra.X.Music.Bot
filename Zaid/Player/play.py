@@ -29,16 +29,16 @@ import yt_dlp
 import yt_dlp
 
 ZAID_IMGS = [
-    "Process/ImageFont/LightGreen.png",
+    "Process/ImageFont/Washing.gif",
     "Process/ImageFont/Red.png",
-    "Process/ImageFont/Black.png",
-    "Process/ImageFont/Blue.png",
-    "Process/ImageFont/Grey.png",
-    "Process/ImageFont/Green.png",
-    "Process/ImageFont/Lightblue.png",
-    "Process/ImageFont/Lightred.png",
-    "Process/ImageFont/Purple.png",
-    "Process/ImageFont/foreground.png",
+    "Process/ImageFont/Washing.gif",
+    "Process/ImageFont/Washing.gif",
+    "Process/ImageFont/Washing.gif",
+    "Process/ImageFont/Washing.gif",
+    "Process/ImageFont/Washing.gif",
+    "Process/ImageFont/Washing.gif",
+    "Process/ImageFont/Washing.gif",
+    "Process/ImageFont/Washing.gif",
 ]
 
 def ytsearch(query: str):
