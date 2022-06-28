@@ -90,8 +90,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url='https://t.me/{USERNAME}?startgroup=true'),
             ],
             [
-                InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f"https://t.me/HEPPYLIFI"),
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Broken_Heart_72"),
+                InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
                 InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/OFFICIALHACKERERA"),
                 InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ", callback_data="help"),
             ]
