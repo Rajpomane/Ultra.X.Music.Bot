@@ -3,6 +3,7 @@
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["OFFICIALHACKERERA", "-Vc-Player", "music", "voice chat", "telegram", "ULTRA", "ULTRA X Music", "Private Music"],
     "repository": "https://github.com/OFFICIALHACKERERA/ULTRA-X-MUSIC-BOT",
+    "logo": "https://telegra.ph/file/7aca8e594e14f51f0ce14.jpg",
   "stack": "container",
     "env": {
         "SESSION_NAME": {
