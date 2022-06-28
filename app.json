@@ -1,7 +1,7 @@
 {
     "name": "ULTRA X MUSIC BOT",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
-    "keywords": ["Zaid", "-Vc-Player", "music", "voice chat", "telegram", "ULTRA", "ULTRA X Music", "Private Music"],
+    "keywords": ["OFFICIALHACKERERA", "-Vc-Player", "music", "voice chat", "telegram", "ULTRA", "ULTRA X Music", "Private Music"],
     "repository": "https://github.com/OFFICIALHACKERERA/ULTRA-X-MUSIC-BOT",
   "stack": "container",
     "env": {
