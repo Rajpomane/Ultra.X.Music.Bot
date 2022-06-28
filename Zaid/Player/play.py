@@ -139,9 +139,9 @@ async def play(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
                [     
                   [
-                      InlineKeyboardButton(text="•ɢʀᴏᴜᴘ•", url=f"https://t.me/HEPPYLIFI"),
+                      InlineKeyboardButton(text="•ɢʀᴏᴜᴘ•", url=f"https://t.me/{GROUP_SUPPORT}"),
                       InlineKeyboardButton(text="•ᴏᴡɴᴇʀ•", url=f"https://t.me/OFFICIALHACKERERA"),
-                      InlineKeyboardButton(text="•ᴄʜᴀɴɴᴇʟ•", url=f"https://t.me/Broken_Heart_72"),
+                      InlineKeyboardButton(text="•ᴄʜᴀɴɴᴇʟ•", url=f"https://t.me/{UPDATES_CHANNEL}"),
                    ]
                      
                   ]
