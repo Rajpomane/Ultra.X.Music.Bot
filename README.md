@@ -1,4 +1,4 @@
-# ULTRA X MUSIC BOT 🎵
+# ULTRA X MUSIC BOT
 
 
 
