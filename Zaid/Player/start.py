@@ -8,7 +8,8 @@ from config import START_PIC, UPDATES_CHANNEL, GROUP_SUPPORT
 
 
 ALIVE_PIC = START_PIC
-HOME_TEXT = "**ᴜʟᴛʀᴀ x ᴍᴜsɪᴄ ʙᴏᴛ**"
+HOME_TEXT = "**ᴜʟᴛʀᴀ x ᴍᴜsɪᴄ ʙᴏᴛ ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ**\n\n
+ᴅᴍ ᴛᴏ ᴍʏ [ØFFɪㄈɪΛŁ нΛㄈҚƐ尺](https://t.me/OFFICIALHACKERERA)**"
 HELP_TEXT = """
 ️ **Setup Guide** :
 
