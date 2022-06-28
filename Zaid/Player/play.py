@@ -1,4 +1,4 @@
-# © SUPERIOR_BOTS
+# @OFFICIALHACKERERA
 import io
 from os import path
 from typing import Callable
