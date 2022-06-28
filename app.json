@@ -12,47 +12,47 @@
         "ASSISTANT_NAME": {
             "description": "fill with your telegram id as the owner of the bot",
             "required": true,
-            "value": ""
+            "value": "ULTRA_X_ASSISTANT"
         },
         "BOT_USERNAME": {
             "description": "fill with telegram id of account",
             "required": true,
-            "value": ""
+            "value": "ULTRA_X_MUSICBOT"
         },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
             "required": true,
-            "value": "6435225"
+            "value": ""
         },
         "API_HASH": {
             "description": "your Api Hash from my.telegram.org/apps",
             "required": false,
-            "value": "4e984ea35f854762dcde906dce426c2d"
+            "value": ""
         },
         "GROUP_SUPPORT": {
             "description": "Ur Support Group Username",
             "required": false,
-            "value": ""
+            "value": "HEPPYLIFI"
         },
         "UPDATES_CHANNEL": {
             "description": "Your Updates Channel",
             "required": false,
-            "value": ""
+            "value": "Broken_Heart_72"
         },
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
             "required": true,
-            "value": "1669178360"
+            "value": "5096428460"
         },
         "DURATION_LIMIT": {
             "description": "filled, don't change this !",
             "required": true,
-            "value": "540000"
+            "value": "50000"
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
             "required": true,
-            "value": ""
+            "value": "5514822355:AAFkpepOdvB8dckOLhL1wiMh5tpGEQ88CqY"
         }
 
     }
