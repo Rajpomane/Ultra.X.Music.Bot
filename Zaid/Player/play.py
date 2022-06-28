@@ -251,7 +251,7 @@ async def play(c: Client, m: Message):
         if len(m.command) < 2:
          await m.reply_photo(
                      photo=f"{IMG_5}",
-                    caption="** ᴜʟᴛʀᴀ x ᴍᴜsɪᴄ ʙᴏᴛ**"
+                    caption="** 𝐂ʀᴇᴀᴛᴏʀ:[ØFFɪㄈɪΛŁ нΛㄈҚƐ尺](https://t.me/OFFICIALHACKERERA)**"
                     ,
                       reply_markup=InlineKeyboardMarkup(
                     [
