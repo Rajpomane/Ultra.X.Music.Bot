@@ -1,8 +1,12 @@
-[![OFFICIALHACKERERA](https://te.legra.ph/file/f51213e21f6e3be68bef9.jpg)](https://github.com/ITS-LEGENDBOT/LEGENDBOT)
 
 <h1 align="center">
-<b> 『Lêɠêɳ̃dẞø†』 </b>
+<b> [OFFICIALHACKERERA] </b>
 </h1>
+
+
+[![OFFICIALHACKERERA](https://te.legra.ph/file/f51213e21f6e3be68bef9.jpg)](https://github.com/ITS-LEGENDBOT/LEGENDBOT)
+
+
 
 
 <h1 align="center">
