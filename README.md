@@ -1,9 +1,13 @@
 [![OFFICIALHACKERERA](https://te.legra.ph/file/f51213e21f6e3be68bef9.jpg)](https://github.com/ITS-LEGENDBOT/LEGENDBOT)
 
+<h1 align="center">
+<b> 『Lêɠêɳ̃dẞø†』 </b>
+</h1>
 
-# ULTRA X MUSIC BOT
 
-
+<h1 align="center">
+<b> ULTRA X MUSIC BOT </b>
+</h1>
 
 <h3> Dєρℓογ το нєяοκυ </h3>
 
