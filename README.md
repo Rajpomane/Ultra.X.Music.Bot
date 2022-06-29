@@ -1,6 +1,6 @@
 
 <h1 align="center">
-<b> [OFFICIALHACKERERA] </b>
+<b> OFFICIALHACKERERA</b>
 </h1>
 
 
