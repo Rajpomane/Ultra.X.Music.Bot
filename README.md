@@ -1,4 +1,4 @@
-[![OFFICIALHACKERERA](https://telegra.ph/file/2dfd3e6d9007aabffad92.jpg)](https://github.com/ITS-LEGENDBOT/LEGENDBOT)
+[![OFFICIALHACKERERA](https://te.legra.ph/file/12aa46a2c6da5ec20f8ac.jpg)](https://github.com/ITS-LEGENDBOT/LEGENDBOT)
 
 
 # ULTRA X MUSIC BOT
