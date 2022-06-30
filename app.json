@@ -53,7 +53,7 @@
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
             "required": true,
-            "value": "5514822355:AAFkpepOdvB8dckOLhL1wiMh5tpGEQ88CqY"
+            "value": ""
         }
 
     }
