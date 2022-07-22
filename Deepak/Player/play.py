@@ -265,7 +265,7 @@ async def play(c: Client, m: Message):
             )
         else:
             suhu = await m.reply_text(
-        f"** ᴘʀᴏᴄᴇssɪɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ!...**"
+        f"**🩸 ᴘʀᴏᴄᴇssɪɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ!...**"
     )
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
@@ -294,13 +294,13 @@ async def play(c: Client, m: Message):
                         )
                         await m.reply_photo(
                             photo=image,
-                            caption=f" **Track added to queue »** `{pos}`\n\n **Name:** [{songname[:22]}]({url}) | `music`\n**⏱ Duration:** `{duration}`\n🎧 **Request by:** {requester}",
+                            caption=f" **🩸 Track added to queue »** `{pos}`\n\n **🩸 Name:** [{songname[:22]}]({url}) | `music`\n**🩸 Duration:** `{duration}`\n **🩸 Request by:** {requester}",
                             reply_markup=keyboard,
                         )
                     else:
                         try:
                             await suhu.edit(
-                            f"**ᴜʟᴛʀᴀ x **"
+                            f"**🩸ᴜʟᴛʀᴀ x **"
                         )
                             await call_py.join_group_call(
                                 chat_id,
@@ -314,7 +314,7 @@ async def play(c: Client, m: Message):
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
                                 photo=image,
-                                caption=f"**𝐍ᴀᴍᴇ:** [{songname[:22]}]({url})\n**𝐃ᴜʀᴀᴛɪᴏɴ** `{duration}`\n**𝐒ᴛᴀᴛᴜs** `Playing`\n**𝐑ᴇǫᴜᴇsᴛ 𝐁ʏ** {requester}",
+                                caption=f"**🩸 ɴᴀᴍᴇ:** [{songname[:22]}]({url})\n**🩸 ᴅᴜʀᴀᴛɪᴏɴ** `{duration}`\n**🩸 ѕᴛᴀᴛᴜs** `Playing`\n**🩸 ʀᴇǫᴜᴇsᴛ ʙʏ** {requester}",
                                 reply_markup=keyboard,
                             )
                         except Exception as ep:
