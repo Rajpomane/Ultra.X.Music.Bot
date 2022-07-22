@@ -1,5 +1,5 @@
 #!/bin/bash
-### Zaid Music Installer
+### Deepak Music Installer
 
 sudo apt update
 apt upgrade -y
