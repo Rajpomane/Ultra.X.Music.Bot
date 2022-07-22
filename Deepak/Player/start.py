@@ -8,7 +8,7 @@ from config import START_PIC, UPDATES_CHANNEL, GROUP_SUPPORT
 
 
 ALIVE_PIC = START_PIC
-HOME_TEXT = "**💝 ULTRA X MUSIC BOT ♥️\n❤️‍🔥  ʙᴇsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ\n❤️‍🔥  ᴇᴀsʏ ᴅᴇᴘʟᴏʏ\n❤️‍🔥  ʙᴀsᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ\n❤️‍🔥  ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛs\n❤️‍🔥  ʙᴇᴡ ғᴇᴀᴛᴜʀᴇ\n❤️‍🔥  ᴍᴀᴅᴇ ʙʏ [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n❤️‍🔥  ᴀʟᴡᴀʏs ᴡɪʟʟ ᴜᴘᴅᴀᴛᴇ\n❤️‍🔥  ʙᴇsᴛ ᴀɴᴅ sᴇᴄᴜʀᴇ\n❤️‍🔥  ғᴀsᴛ sᴍᴏᴏᴛʜ ᴀɴᴅ sᴛʏʟɪsʜ**"
+HOME_TEXT = "**🩸 ᴜʟᴛʀᴀ x ᴍᴜsɪᴄ ʙᴏᴛ 🩸\n❤️‍🔥  ʙᴇsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ\n❤️‍🔥  ᴇᴀsʏ ᴅᴇᴘʟᴏʏ\n❤️‍🔥  ʙᴀsᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ\n❤️‍🔥  ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛs\n❤️‍🔥  ʙᴇᴡ ғᴇᴀᴛᴜʀᴇ\n❤️‍🔥  ᴍᴀᴅᴇ ʙʏ [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)\n❤️‍🔥  ᴀʟᴡᴀʏs ᴡɪʟʟ ᴜᴘᴅᴀᴛᴇ\n❤️‍🔥  ʙᴇsᴛ ᴀɴᴅ sᴇᴄᴜʀᴇ\n❤️‍🔥  ғᴀsᴛ sᴍᴏᴏᴛʜ ᴀɴᴅ sᴛʏʟɪsʜ**"
 HELP_TEXT = """
 ️ **Setup Guide** :
 
