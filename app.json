@@ -20,6 +20,11 @@
             "required": false,
             "value": ""
         },
+        "ASSISTANT_NAME": {
+            "description": "fill with your telegram id as the owner of the bot",
+            "required": true,
+            "value": "ULTRA_X_ASSISTANT"
+        },
         "GROUP_SUPPORT": {
             "description": "Ur Support Group Username",
             "required": false,
