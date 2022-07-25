@@ -6,7 +6,7 @@
     "logo": "https://telegra.ph/file/ac2cbc52c602ed4dbc549.jpg",
   "stack": "container",
     "env": {
-        "SESSION_NAME": {
+        "DEEPAK_SESSION": {
             "description": "fill with the pyrogram session string from account",
             "required": true
         },
