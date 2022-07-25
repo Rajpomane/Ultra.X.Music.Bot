@@ -10,16 +10,6 @@
             "description": "fill with the pyrogram session string from account",
             "required": true
         },
-        "ASSISTANT_NAME": {
-            "description": "fill with your telegram id as the owner of the bot",
-            "required": true,
-            "value": "ULTRA_X_ASSISTANT"
-        },
-        "BOT_USERNAME": {
-            "description": "fill with telegram id of account",
-            "required": true,
-            "value": "ULTRA_X_MUSICBOT"
-        },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
             "required": true,
@@ -29,16 +19,6 @@
             "description": "your Api Hash from my.telegram.org/apps",
             "required": false,
             "value": ""
-        },
-        "GROUP_SUPPORT": {
-            "description": "Ur Support Group Username",
-            "required": false,
-            "value": "HEPPYLIFI"
-        },
-        "UPDATES_CHANNEL": {
-            "description": "Your Updates Channel",
-            "required": false,
-            "value": "Broken_Heart_72"
         },
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
