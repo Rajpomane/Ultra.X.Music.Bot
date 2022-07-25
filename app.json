@@ -20,6 +20,16 @@
             "required": false,
             "value": ""
         },
+        "GROUP_SUPPORT": {
+            "description": "Ur Support Group Username",
+            "required": false,
+            "value": "HEPPYLIFI"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "Your Updates Channel",
+            "required": false,
+            "value": "Broken_Heart_72"
+        },
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
             "required": true,
