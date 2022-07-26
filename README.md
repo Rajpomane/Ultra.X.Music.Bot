@@ -1,30 +1,4 @@
 
-<
-<details>
-    <summary><b> Click here to expand » </b></summary>
-
-- **ᴘʟᴀʏ ᴍᴜꜱɪᴄ ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛꜱ!** (ꜱᴜᴘᴘᴏʀᴛꜱ ᴍᴜʟᴛɪᴘʟᴇ ɢʀᴏᴜᴘꜱ)
-- **ꜱᴜᴘᴘᴏʀᴛꜱ Qᴜᴇᴜᴇꜱ!**
-- **ᴄᴏɴᴛʀᴏʟ ʙʏ ʙᴜᴛᴛᴏɴꜱ ᴏʀ ᴄᴏᴍᴍᴀɴᴅꜱ**
-- **ꜱᴇᴀʀᴄʜ ꜰᴏʀ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏꜱ ɪɴʟɪɴᴇ!**
-- **ᴅᴏᴡɴʟᴏᴀᴅ ʏᴛ ꜱᴏɴɢꜱ ʙʏ ɪᴛ'ꜱ ɴᴀᴍᴇ!**
-- **ᴅᴏᴡɴʟᴏᴀᴅ ʏᴛ ᴠɪᴅᴇᴏꜱ ʙʏ ɪᴛ'ꜱ ɴᴀᴍᴇ!**
-- **ɢᴇᴛ ʟʏʀɪᴄꜱ ᴏꜰ ʏᴏᴜʀ ꜱᴏɴɢ!**
-- **ᴊᴏɪɴ & ʟᴇᴀᴠᴇ ꜱᴛʀᴇᴀᴍᴇʀ ᴀᴄᴄᴏᴜɴᴛ ᴜꜱɪɴɢ ᴀ ᴄᴏᴍᴍᴀɴᴅ**
-- **ᴄᴏᴏʟ ꜱᴛᴀʀᴛꜱ ᴘʟᴜɴɢɪɴꜱ**
-- **Spam**
-- **Replyraid**
-- **Love Raid**
-- **VcRaid**
-- **Video Raid**
-- **Skip, Pause, Resume, Stop feature**
-- **YouTube/Local/Live/m3u8 stream support**
-- **Control With Button support**
-- **Volume Control**
-- **Userbot Auto Join**
-</details>
-
-## 🔎 ꜱᴜᴘᴘᴏʀᴛ ɪɴʟɪɴᴇ ꜱᴇᴀʀᴄʜ
 
 ## ᴅᴇᴘʟᴏʏ
 
