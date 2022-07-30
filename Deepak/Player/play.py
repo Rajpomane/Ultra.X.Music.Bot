@@ -251,7 +251,7 @@ async def play(c: Client, m: Message):
         if len(m.command) < 2:
          await m.reply_photo(
                      photo=f"{IMG_5}",
-                    caption="**[OFFICIALHACKERERA](https://t.me/OFFICIALHACKERERA)**"
+                    caption="**Give Me Your Query Which You want to Play**\n\n **Example**: `/play Kali kar hai`**"
                     ,
                       reply_markup=InlineKeyboardMarkup(
                     [
@@ -265,7 +265,7 @@ async def play(c: Client, m: Message):
             )
         else:
             suhu = await m.reply_text(
-        f"**🩸 ᴘʀᴏᴄᴇssɪɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ!...**"
+        f"**Processing Query... Please Wait!**"
     )
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
@@ -300,7 +300,7 @@ async def play(c: Client, m: Message):
                     else:
                         try:
                             await suhu.edit(
-                            f"**🩸ᴜʟᴛʀᴀ x **"
+                            f"** ᴜʟᴛʀᴀ x **"
                         )
                             await call_py.join_group_call(
                                 chat_id,
