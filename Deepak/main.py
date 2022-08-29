@@ -4,7 +4,7 @@ import random
 import asyncio
 import telethon.utils
 from telethon import TelegramClient, events
-from config import API_HASH, API_ID, BOT_TOKEN, DEEPAK_SESSION
+from config import API_HASH, API_ID, BOT_TOKEN, DEEPAK_STRING
 from pyrogram import Client
 from pytgcalls import PyTgCalls
 
@@ -19,12 +19,12 @@ bot = Client(
 BOT = TelegramClient('BOT', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
 user = Client(
-    DEEPAK_SESSION,
+    DEEPAK_STRING,
     api_id=API_ID,
     api_hash=API_HASH,
 )
 
-Test = Client(DEEPAK_SESSION, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'Deepak.Player'})
+Test = Client(DEEPAK_STRING, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'Deepak.Player'})
 call_py = PyTgCalls(
     Test,
     cache_duration=100,
