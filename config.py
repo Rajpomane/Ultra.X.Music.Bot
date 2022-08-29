@@ -9,7 +9,7 @@ if os.path.exists("local.env"):
 
 load_dotenv()
 admins = {}
-DEEPAK_SESSION = getenv("DEEPAK_SESSION", "")
+DEEPAK_STRING = getenv("DEEPAK_STRING", "")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 BOT_NAME = getenv("BOT_NAME", "Umk")
 API_ID = int(getenv("API_ID", "8186557"))
