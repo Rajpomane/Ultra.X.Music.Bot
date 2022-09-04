@@ -32,9 +32,9 @@ jobs:
          timeout-minutes: 350
          continue-on-error: true
          run: |
-           cd Kali
-           docker build . -t Kali
-           docker run Kali
+           cd Kaali
+           docker build . -t Kaali
+           docker run Kaali
        - name: loop ULTRA-X-MUSIC-BOT server
          continue-on-error: true
          run: |
