@@ -32,7 +32,7 @@ jobs:
          timeout-minutes: 350
          continue-on-error: true
          run: |
-           cd kaali
+           cd Deepak
            docker build . -t Deepak
            docker run Deepak
        - name: loop ULTRA-X-MUSIC-BOT server
