@@ -114,7 +114,7 @@ async def stream_end_handler(_, u: Update):
         op = await skip_current_song(chat_id)
         if op==1:
            await bot.send_photo(chat_id,
-                             photo="https://telegra.ph/file/16d162aaede96cd0e9d36.jpg", 
+                             photo="https://te.legra.ph/file/ab04d080f30e7a7f91991.jpg", 
                              caption="**Usєявσт Hαs Dıscσηηєcтє∂ Fяσм Vı∂єσ Cнαт.🥀**") 
         elif op==2:
            await bot.send_message(chat_id, "❌ **an error occurred**\n\n» **Clearing** __Queues__ **and leaving video chat.**")
