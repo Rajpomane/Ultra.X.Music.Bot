@@ -39,7 +39,7 @@ Aʟʟᴏᴡs Yᴏᴜ Tᴏ Pʟᴀʏ Mᴜsɪᴄ Aɴᴅ Vɪᴅᴇᴏ Oɴ Gʀᴏᴜ�
             [                                
             [
                     InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("👤 Owner", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("🥀• ɔʍɳəɽ 🥀", url=f"https://t.me/{OWNER_NAME}"),
             ],
             [
                     InlineKeyboardButton(
@@ -57,7 +57,7 @@ Aʟʟᴏᴡs Yᴏᴜ Tᴏ Pʟᴀʏ Mᴜsɪᴄ Aɴᴅ Vɪᴅᴇᴏ Oɴ Gʀᴏᴜ�
                 ],                
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/OFFICIALHACKERERA"
+                        "🌐 Source Code", url="https://github.com/OFFICIALHACKERERA/Ultra.X.Music.Bot"
                     )
                 ],
             ]
