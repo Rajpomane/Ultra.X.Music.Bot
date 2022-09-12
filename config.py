@@ -8,22 +8,37 @@ admins = {}
 
 #:::::::::::::@OFFICIALHACKERERA
 
-API_ID = int(getenv("API_ID", "15756780"))
-API_HASH = getenv("API_HASH", "83ec148262010024e30ef9cbf34333c8")
-BOT_TOKEN = getenv("BOT_TOKEN", "5527973315:AAFfJVu1uT5--oPjQOmf56lDfq_siDWzBM8")
-DEEPAK_SESSION = getenv("DEEPAK_SESSION", "BQB1dQFAUI0Mqb9J_RuD_wGmXqvJRx_maFK8LQ8ug3YoZ7WXv-dZf3pimxInaJtHUHW0Ek1pGWP84c7hOllZukBesejU4UkZg-DrSADA5mOY_-uN6TXsbOVjh02NOM3xzzfbOA63c9W3Jhk3TCiWMbAgikNoAtw7kQsAZkVyo1s2gyiCN9rbGkLjeDnKHZEWuq4GecH6LBP8zp4GXTstdoC9gIEJLUIyD-BPLKxCIC0t7BKDtR-6-Tf7m5qzDf3X8LU21cfenAp5aVJQ-OivWufP6A2oRMizRWXy5uBacXF5X_709gs_wpNP0VoCYPvAI5uUOkzOMly7BHo-zx6gUJypAAAAAT7h5bAA")
+API_ID = int(getenv("API_ID", ""))
+
+API_HASH = getenv("API_HASH", "")
+
+BOT_TOKEN = getenv("BOT_TOKEN", "")
+
+DEEPAK_SESSION = getenv("DEEPAK_SESSION", "")
+
 OWNER_ID = getenv("OWNER_ID", "2035388821")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001767639800"))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "2035388821").split()))
-MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://Garw:garw@cluster0.tmib6.mongodb.net/cluster0?retryWrites=true&w=majority")
+
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
+
+MONGO_URL = os.environ.get("MONGO_URL", "")
+
 OWNER_NAME = getenv("OWNER_NAME", "OFFICIALHACKERERA")
+
 BOT_NAME = getenv("BOT_NAME", "Ultra X Music")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "ULTRA_X_ASSISTANT")
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "HEPPYLIFI")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "OFFICIALHACKER789")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "OFFICIALHACKERERA")
-ALIVE_NAME = getenv("ALIVE_NAME", "OFFICIALHACKERERA")
-BOT_USERNAME = getenv("BOT_USERNAME", "ULTRA_X_MUSICBOT")
+
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "")
+
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "")
+
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "")
+
+OWNER_USERNAME = getenv("OWNER_USERNAME", "")
+
+ALIVE_NAME = getenv("ALIVE_NAME", "")
+
+BOT_USERNAME = getenv("BOT_USERNAME", "")
 
 
 
