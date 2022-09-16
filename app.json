@@ -20,6 +20,11 @@
             "required": false,
             "value": ""
         },
+        "LOGGER_ID": {
+          "description": "Create a private channel. And get it's id from @missrose_bot and paste here. Value should start with -100",
+          "value": "",
+          "required": true
+        },
         "ASSISTANT_NAME": {
             "description": "fill with your telegram id as the owner of the bot",
             "required": true,
