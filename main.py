@@ -20,14 +20,14 @@ async def start_bot():
     await Deepak.start()
     print("[INFO]: STARTING PYTGCALLSS CLIENT")
     await call_py.start()
-    await Test.join_chat("HEPPYLIFI")
+    await Test.join_chat("Bhutiya_Haveli")
     await Test.join_chat("Broken_Heart_72")
     await Test.join_chat("OFFICIALHACKER789")
     await Test.join_chat("OFFICIALHACKER8")
     await tgbot.send_file(LOG_GROUP_ID,
                                   START_PIC,
                                   caption=Lola,
-                                  buttons=[[Button.url("🥀 Uᴘᴅᴀᴛᴇs", "https://t.me/Broken_Heart_72"),Button.url("🥀 Sᴜᴘᴘᴏʀᴛ", "https://t.me/HEPPYLIFI"),]])        
+                                  buttons=[[Button.url("🥀 Uᴘᴅᴀᴛᴇs", "https://t.me/Broken_Heart_72"),Button.url("🥀 Sᴜᴘᴘᴏʀᴛ", "https://t.me/Bhutiya_Haveli"),]])        
     await idle()
     print("[INFO]: STOPPING BOT & USERBOT")
     await bot.stop()
